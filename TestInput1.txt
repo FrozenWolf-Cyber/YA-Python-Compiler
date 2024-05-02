@@ -1,0 +1,42 @@
+array = [7,6,10,5,9,2,1,15,7]
+low=-1
+x=10
+y=10
+high=-1
+temp=-1
+temp1=-1
+idx=-1
+start=-1
+end=-1
+
+#QuickSort algo implementation with first element as pivot
+
+def quick_sort(array, low, high):
+	if(low < high):
+		pivot = array[low]
+		start = low + 1
+		end = high
+		while True:
+			while start <= end and array[end] >= pivot:
+				end = end - 1
+			while start <= end and array[start] <= pivot:
+				start = start + 1
+			if start <= end:
+				temp = array[start]
+				temp1 = array[end]
+				array[start] = temp1
+				array[end] = temp
+			else:
+				break
+		temp = array[low]
+		temp1 = array[end]
+		array[low] = temp1
+		array[end] = temp
+		idx = end-1
+		quick_sort(array, start, idx)
+		idx = end+1
+		quick_sort(array, idx, end)
+	return
+
+
+quick_sort(array, 0, 8)
