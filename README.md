@@ -5,9 +5,9 @@ make && ./Test.out < TestInput1.txt
 ```
 ## Features implemented
 ## Lexical analysis 
-Token identification
-Lexical error detection
-Symbol Table
+Token identification <br/>
+Lexical error detection <br/>
+Symbol Table <br/>
 ## Parser
 Syntax declaration
 Indentation and syntactic error detection
