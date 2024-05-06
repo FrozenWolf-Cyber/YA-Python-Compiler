@@ -9,22 +9,22 @@ Token identification <br/>
 Lexical error detection <br/>
 Symbol Table <br/>
 ## Parser
-Syntax declaration
-Indentation and syntactic error detection
-Parse Tree 
-Abstract Syntax Tree
+Syntax declaration <br/>
+Indentation and syntactic error detection <br/>
+Parse Tree <br/>
+Abstract Syntax Tree <br/>
 ## Semantic Analysis
-SDD + SDT
-Annotated Parse Tree
-Semantic Error detection
+SDD + SDT <br/>
+Annotated Parse Tree <br/>
+Semantic Error detection <br/>
 ## ICG
-3 address code - Quadruples
-Backpatching
+3 address code - Quadruples <br/>
+Backpatching <br/>
 ## Code Optimization
-Basic blocks
-DAG, CFG
-Induction Variable elimination
-Constant Folding + Copy Propagation
-Dead Code Elimination
-Peephole Optimization
+Basic blocks <br/>
+DAG, CFG <br/>
+Induction Variable elimination <br/>
+Constant Folding + Copy Propagation <br/>
+Dead Code Elimination <br/>
+Peephole Optimization <br/>
 
