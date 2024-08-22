@@ -1,3 +1,6 @@
+
+![compiler](https://github.com/user-attachments/assets/6da4a38f-debc-4d85-9600-7d6a10ee805c)
+
 ## To run the code
 ```bash
 make clean
