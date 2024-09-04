@@ -6,6 +6,12 @@
 make clean
 make && ./Test.out < TestInput1.txt
 ```
+
+## Tech Stack
+Programming Language: Python
+Tools: YACC (Yet Another Compiler Compiler), Lex (for lexical analysis)
+Data Structures: Symbol tables, parse trees, abstract syntax trees (ASTs)
+
 ## Features implemented
 ## Lexical analysis 
 Token identification <br/>
