@@ -8,8 +8,8 @@ make && ./Test.out < TestInput1.txt
 ```
 
 ## Tech Stack
-Programming Language: Python
-Tools: YACC (Yet Another Compiler Compiler), Lex (for lexical analysis)
+Programming Language: Python <br/>
+Tools: YACC (Yet Another Compiler Compiler), Lex (for lexical analysis) <br/>
 Data Structures: Symbol tables, parse trees, abstract syntax trees (ASTs)
 
 ## Features implemented
